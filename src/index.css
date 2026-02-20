@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg,#ffe4ec,#ffd6e7,#ffc2dc);
+  min-height: 100vh;
+}
+
+/* container */
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+/* glass card */
+.card {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(12px);
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  margin: 20px 0;
+  transition: .3s;
+}
+
+.card:hover{
+  transform: translateY(-6px) scale(1.01);
+}
+
+/* headings */
+h1,h2,h3{
+  margin:0 0 10px;
+  color:#831843;
+}
+
+/* buttons */
+button{
+  background: linear-gradient(90deg,#ec4899,#db2777);
+  color:white;
+  border:none;
+  padding:8px 16px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+/* input */
+input{
+  padding:8px;
+  border-radius:8px;
+  border:1px solid #f9a8d4;
+}
+
+/* dark theme */
+.dark{
+  background:#3b0764;
+  color:white;
+}
